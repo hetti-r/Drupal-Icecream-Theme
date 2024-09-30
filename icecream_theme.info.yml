@@ -13,4 +13,5 @@ regions:
   content: content
   sidebar: sidebar
   footer: footer
+  breadcrumb: breadcrumb
   

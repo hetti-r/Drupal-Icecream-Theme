@@ -1,0 +1,246 @@
+/* #header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+#content {
+  padding-bottom: 50px;
+}
+
+#footer {
+  padding: 60px;
+  text-align: center;
+  background: grey;
+  color: white;
+  font-size: 30px;
+} */
+ 
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans';
+    overflow-x:hidden;
+    background: rgb(249,237,246);
+    background: linear-gradient(90deg, rgba(249,237,246,1) 0%, rgba(249,243,241,1) 100%); 
+    background-image: url(Frame8.svg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  
+  }
+  a, a:active, a:hover, a:visited{
+    text-decoration: none;
+
+    /* color: #000; */
+  }
+
+  a {
+    color: #88AABE
+  }
+  ul, ol{
+    list-style-type: none;
+  }
+  header{
+    background: rgb(223, 203, 219);
+    background: linear-gradient(90deg, rgba(247,142,226,1) 0%, rgba(255,161,138,1) 100%); 
+    background-image: url(Frame14.svg);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  #pager {
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    margin-bottom: 2rem;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  }
+  article {
+  align-items: center;
+  background: rgb(255, 248, 253);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  margin-bottom: 2rem;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  width: auto;
+}
+
+  .content{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .footer{
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background-color: #51636d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #block-icecream-theme-branding a{
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .heading{
+    color: #fff;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #block-icecream-theme-main-menu ul{
+    z-index: 5;
+    width: 80%;
+    display: inline-block;
+  }
+  
+  #block-icecream-theme-main-menu ul li{
+    padding: 10px;
+    width:10%;
+    display: inline-block;
+    position: relative;
+    text-align:start;
+    padding-left: 20%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #E6DADA;
+    border: 2px solid #E6DADA;
+    transition: 500ms;
+  }
+  
+  #block-icecream-theme-main-menu ul li:hover{
+    color: #E6DADA;
+    background-color: #13171c;
+  
+  }
+  #block-icecream-theme-footer ul li{
+    display: inline-block;
+  }
+  .contextual-links {
+    display: none;
+  }
+  #block-icecream-theme-account-menu ul {
+    display: flex;
+    flex-direction: row;
+
+  }
+  #block-icecream-theme-footer ul li a{
+    display: inline-block;
+    color: #efefef;
+  }
+
+  #block-icecream-theme-site-branding {
+    padding: 3rem;
+    margin-top: 1rem;
+    padding-top: 4rem;
+    padding-left: 20rem;
+    padding-bottom: 2rem;
+    color: #fff;
+    font-family: 'Noto Sans';
+    height: 12rem;
+  }
+  #block-icecream-theme-site-branding a {
+    color: #fff;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 6rem;
+  }
+ 
+  #block-icecream-theme-mainnavigation li {
+    display:inline-block;
+    margin-left: 2rem;
+  }
+
+  #block-icecream-theme-mainnavigation a {
+    color: #f3a3ad;
+  }
+
+  #block-icecream-theme-mainnavigation ul {
+      align-items: start;
+      background: #fcf1e8;
+      border: 0 solid #E2E8F0;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      box-sizing: border-box;
+      color: #1A202C;
+      display: inline-flex;
+      font-family: Inter, sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      height: 56px;
+      justify-content: center;
+      line-height: 24px;
+      overflow-wrap: break-word;
+      padding: 14px;
+      margin-top: 0;
+      text-decoration: none;
+      width: 100%;
+      cursor: pointer;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+  }
+
+ #block-icecream-theme-mainnavigation-menu ul {
+  align-items: start;
+  padding: 14px;
+  margin-top: 0;
+  text-decoration: none;
+  width: 100%;
+ }
+
+  #block-icecream-theme-useraccountmenu a {
+    color:#da8992
+    ;
+  }
+
+  #block-icecream-theme-useraccountmenu ul {
+    padding-bottom: 1rem;
+    position:absolute;
+    right: 3rem;
+    top: 0;
+    z-index: 5;
+
+  }
+
+   
+  #block-icecream-theme-useraccountmenu li {
+    display:inline-block;
+    margin-left: 0.5rem;
+  }
